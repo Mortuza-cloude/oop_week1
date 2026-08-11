@@ -1,6 +1,7 @@
 # Store your name, age, and city in three variables.
 # Print a formatted sentence using an f-string, e.g.
 # "My name is Yuki, I am 24 years old, and I live in Osaka."
+#
 
 
 name="Yuki"
