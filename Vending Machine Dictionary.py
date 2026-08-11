@@ -1,6 +1,7 @@
 # Create a dictionary vending = {"cola": 150, "water": 120, "coffee": 130}. 
 # Ask for (or hardcode) an item name and print its price. 
 # If the item doesn't exist, print "Item not available".
+#
 
 vending = dict(cola=150, water=120, coffee=130)
 
