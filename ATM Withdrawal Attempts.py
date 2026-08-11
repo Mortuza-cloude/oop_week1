@@ -6,3 +6,16 @@
 
 correct_pin = "1234"
 attempts = 3
+
+while attempts > 0:
+    user=input("Please enter your PIN: ")
+    if user == correct_pin:
+        print("Access granted")
+        break
+    else:
+        attempts -= 1
+        print(f"Incorrect PIN. You have {attempts} attempts left.")
+        if attempts == 0:
+            print("Card blocked")
+
+
